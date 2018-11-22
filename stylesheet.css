@@ -1,0 +1,52 @@
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: red;
+    font-size: 10px;
+  }
+#medium {
+
+}
+#large {
+
+}
+}
+
+@media screen and (max-width: 768px) and (min-width: 300px) {
+  body {
+    background-color: green;
+    font-size: 20px;
+  }
+  #small {
+width: 66%;
+  }
+  #large {
+
+  }
+  #medium{
+    width: 34%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+    font-size: 30px;
+
+  }
+  #medium {
+width: 33%;
+display: inline-block;
+  }
+  #small {
+width: 33%;
+display: inline-block;
+  }
+  #large{
+width: 32%;
+display: inline-block;
+  }
+  .container{
+  display: block;
+  width: 100%;
+  }
+}
